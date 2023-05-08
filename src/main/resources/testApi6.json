@@ -1,0 +1,13 @@
+{
+  "tc_id": 31503,
+  "s_id": [7777777],
+  "type": "GEMPYP",
+  "name": "FOR-TESTINGG",
+  "category": "FORLOOOP",
+  "frameworkDefinedData": {
+    "dependency": "GET",
+    "run_flag": "Y"
+  },
+  "source": "JEWEL",
+  "framework": "GEMPYP"
+}

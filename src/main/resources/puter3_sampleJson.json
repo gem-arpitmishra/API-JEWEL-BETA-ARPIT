@@ -1,0 +1,33 @@
+{
+  "start_time": "#epoch#",
+  "end_time": "#epoch#",
+  "name": "VERIFY_TESTCASE",
+  "category": "sample",
+  "log_file": "VERIFY_TESTCASE_GEMECO-API-PY_PROD_4AB964DA-FE49-4F39-9AF4-5E5D98.log",
+  "status": "#epoch#",
+  "steps": [
+    {
+      "Step Name": "test",
+      "Step Description": "desc",
+      "status": "PASS"
+    },
+    {
+      "Step Name": "fail test",
+      "Step Description": "desc",
+      "status": "FAIL"
+    }
+  ],
+  "machine": "DESKTOP-7R03UF5",
+  "result_file": "-",
+  "product_type": "GEMJAR",
+  "ignore": false,
+  "meta_data": [],
+  "user_defined_data": {
+    "duration": "0.00 sec(s)"
+  },
+  "base_user": "maulick_test",
+  "invoke_user": "maulick_test",
+  "run_type": "ON-DEMAND",
+  "run_mode": "CLI-WINDOWS",
+  "s_run_id": "testsuiteioood"
+}

@@ -1,0 +1,11 @@
+{
+  "projectName": "test#uuid#",
+  "description": "sample",
+  "managers": [],
+  "qaLead": [],
+  "devTeam": [],
+  "qaTeam": [],
+  "env": [
+    "prod"
+  ]
+}

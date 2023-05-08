@@ -1,0 +1,22 @@
+{
+  "s_start_time": "#epoch#",
+  "s_end_time": "#epoch#",
+  "status": "FAIL",
+  "project_name": "test-project",
+  "report_name": "GemjarTestReport",
+  "user": "maulick_test",
+  "env": "beta",
+  "machine": "csgeek",
+  "os": "WINDOWS",
+  "meta_data": [],
+  "expected_testcases": 36,
+  "testcase_info": {
+    "TOTAL": 24,
+    "PASS": 8,
+    "FAIL": 12,
+    "EXE": 2,
+    "ERR": 2
+  },
+  "framework_name": "GEMJAR",
+  "s_id": "test_id"
+}

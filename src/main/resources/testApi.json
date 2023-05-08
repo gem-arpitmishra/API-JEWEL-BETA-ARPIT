@@ -1,0 +1,14 @@
+[
+  {
+    "s_id": [1020],
+    "type": "GEMPYP",
+    "name": "test_backenddd",
+    "category": "ss",
+    "frameworkDefinedData": {
+      "path": "https://apis-beta.gemecosystem.com/company",
+      "run_flag": "Y"
+    },
+    "source": "JEWEL",
+    "framework": "GEMPYP"
+  }
+]

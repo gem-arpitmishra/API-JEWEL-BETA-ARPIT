@@ -1,0 +1,13 @@
+{
+  "isolatedVersionId": 3376 ,
+  "s_id": [882],
+  "type": "GEMPYP",
+  "name": "FOR-TESTINGG",
+  "category": "FORLOOOP",
+  "frameworkDefinedData": {
+    "dependency": "GET",
+    "run_flag": "Y"
+  },
+  "source": "JEWEL",
+  "framework": "GEMPYP"
+}

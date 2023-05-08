@@ -1,0 +1,14 @@
+[
+  {
+    "s_id": [777777],
+    "type": "GEMPYP",
+    "name": "dummy68",
+    "category": "dummy",
+    "frameworkDefinedData": {
+      "path": "https://apis-beta.gemecosystem.com/company",
+      "run_flag": "Y"
+    },
+    "source": "JEWEL",
+    "framework": "GEMPYP"
+  }
+]

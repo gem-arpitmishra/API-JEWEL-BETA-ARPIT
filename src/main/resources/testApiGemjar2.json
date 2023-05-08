@@ -1,0 +1,17 @@
+[
+  {
+    "s_id": [7777777],
+    "feature": "ss",
+    "name": "ssz",
+    "type": "Scenario",
+    "scenario_steps": [
+      "login"
+    ],
+    "run_flag": "Y",
+    "tags": [
+      "ss"
+    ],
+    "source": "JEWEL",
+    "framework": "GEMJAR"
+  }
+]

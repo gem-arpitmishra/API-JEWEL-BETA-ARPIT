@@ -1,0 +1,11 @@
+{
+  "projectName": "sample_project",
+  "description": "sample",
+  "managers": [],
+  "qaLead": [],
+  "devTeam": [],
+  "qaTeam": [],
+  "env": [
+    "prod"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "tc_id": 31490,
+  "s_id": [777777],
+  "feature": "ss",
+  "name": "sszz",
+  "type": "Scenario",
+  "scenario_steps": [
+    "login"
+  ],
+  "run_flag": "Y",
+  "tags": [
+    "ss"
+  ],
+  "source": "JEWEL",
+  "framework": "GEMJAR"
+}
