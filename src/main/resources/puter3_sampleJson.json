@@ -4,7 +4,7 @@
   "name": "VERIFY_TESTCASE",
   "category": "sample",
   "log_file": "VERIFY_TESTCASE_GEMECO-API-PY_PROD_4AB964DA-FE49-4F39-9AF4-5E5D98.log",
-  "status": "#epoch#",
+  "status": "PASS",
   "steps": [
     {
       "Step Name": "test",
