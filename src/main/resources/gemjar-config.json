@@ -1,11 +1,11 @@
 {
   "environment": "beta",
   "project_name": "JEWEL",
-  "report_name": "API-JEWEL-BETA-SMOKE",
+  "report_name": "API-JEWEL-BETA-REGRESSION",
   "token": "Bearer 5a04138da05dcd31f23abe52acff8c3780445d025fad35b4f1a7c7abbdea353c",
   "username": "maulick_test",
   "jewel_user": "geco-maulik",
-  "tags": "@smoke",
+  "tags": "",
   "scenario": "",
   "feature": "src/main/resources/features",
   "email_report": "y",
