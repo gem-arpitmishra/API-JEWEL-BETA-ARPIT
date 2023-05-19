@@ -1,6 +1,5 @@
 Feature: suiteExeApi
 
-  @smoke
   Scenario Outline: Insert Test-Suite Using Post APIs
     Given Set Suite-API endpoint and method and SampleName "<endpoint>" and "<Method>" and "<SampleName>"
     Then Verify Status code <Expected_status>
@@ -37,7 +36,6 @@ Feature: suiteExeApi
       | pospo    | Post   | 400             | psuite2_sampleJson |
 
 
-  @smoke
   Scenario Outline: Update the suite using Put API (suitexe case)
     Given Update Suite using endpoint and method and SampleName "<endpoint>" and "<Method>" and "<SampleName>"
     Then Verify Status code <Expected_status>
