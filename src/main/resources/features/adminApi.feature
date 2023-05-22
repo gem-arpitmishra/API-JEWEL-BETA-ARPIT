@@ -1,6 +1,5 @@
 Feature: Admin
 
-  @smoke
   Scenario Outline: API to create new Project (admin screen)
     Given Set post token endpoint and method "<endpoint>" and "<Method>" and "<SampleName>"
     Then Verify Status code <Expected_status>
@@ -46,7 +45,6 @@ Feature: Admin
       | endpoint  | Method | Expected_status | SampleName   |
       | adminApi1 | post   | 200             | adminScreen5 |
 
-  @smoke
   Scenario Outline: API to update Project (admin screen)
     Given Set post token endpoint and method "<endpoint>" and "<Method>" and "<SampleName>"
     Then Verify Status code <Expected_status>
