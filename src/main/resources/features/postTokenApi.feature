@@ -1,6 +1,5 @@
 Feature: postTokenApi
 
-  @smoke
   Scenario Outline: Change Token
     Given Set token endpoint and method "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>
