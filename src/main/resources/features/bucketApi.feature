@@ -1,6 +1,6 @@
 Feature: bucketApi
 
-  @smoke
+#  @smoke
   Scenario Outline: File upload with Correct BridgeToken
     Given Set endpointt "<endpoint>" and "<endpoint1>" and "<Method>" and "<SampleName>"
     Then Verify Status code <Expected_status>
@@ -66,7 +66,7 @@ Feature: bucketApi
 
 ########################## Bucket APIs-2 ###################################
 
-  @smoke
+#  @smoke
   Scenario Outline: File upload by text
     Given Set endpoint with text "<endpoint>" and "<endpoint1>" and "<Method>" and "<SampleName>"
     Then Verify Status code <Expected_status>
@@ -134,7 +134,7 @@ Feature: bucketApi
 
 ######################## Bucket APIs-3 ###################################
   ################################have to call this#######################
-  @smoke
+#  @smoke
   Scenario Outline:Get file back from recycle bin
     Given Post Suite-API endpoint and method and SampleName and step "<endpoint>" and "<endpoint1>" and "<endpoint2>" and "<Method>" and "<SampleName>" and "<SampleName1>" and "<stepName>"
     Then Verify Status code <Expected_status>
@@ -201,7 +201,7 @@ Feature: bucketApi
 
    ######################## Bucket APIs-4 ###################################
 
-  @smoke
+#  @smoke
   Scenario Outline:Give access of the folder to the users
     Given Post Suite-API endpoint and method and SampleName and step "<endpoint>" and "<endpoint1>" and "<endpoint2>" and "<Method>" and "<SampleName>" and "<SampleName1>" and "<stepName>"
     Then Verify Status code <Expected_status>
@@ -240,7 +240,7 @@ Feature: bucketApi
 
      ######################## Bucket APIs-5 ###################################
 
-  @smoke
+#  @smoke
   Scenario Outline:Change tag to public
     Given Post Suite-API endpoint and method and SampleName and step "<endpoint>" and "<endpoint1>" and "<endpoint2>" and "<Method>" and "<SampleName>" and "<SampleName1>" and "<stepName>"
     Then Verify Status code <Expected_status>
@@ -308,7 +308,7 @@ Feature: bucketApi
       | deleteTag | Post   | 206             | deleteTag2_sampleJson |
 
 #      ######################## Bucket APIs-7 ###################################
-#
+
   Scenario Outline:Get the file from recycle bin
     Given Post Suite-API endpoint and method and SampleName and step "<endpoint>" and "<endpoint1>" and "<endpoint2>" and "<Method>" and "<SampleName>" and "<SampleName1>" and "<stepName>"
     Then Verify Status code <Expected_status>
@@ -322,7 +322,7 @@ Feature: bucketApi
     Examples:
       | endpoint        | endpoint1   | Method | Expected_status | SampleName                 | stepName                               |
       | permanentDelete | fileUpload3 | Post   | 200             | permanentDelete_sampleJson | Test to Deleting the Files Permanently |
-#
+
   Scenario Outline:Deleting the Files Permanently when Bridge Token is not valid
     Given Set Post API endpoint and method and SampleName "<endpoint>" and "<Method>" and "<SampleName>"
     Then Verify Status code <Expected_status>
@@ -390,7 +390,7 @@ Feature: bucketApi
 
 ###       ######################## Bucket APIs-9 ###################################
 
-  @smoke
+#  @smoke
   Scenario Outline:Get the Files when files are public
     Given Get file by setting Authentication: endpoint and method "<endpoint>" and "<endpoint1>" and "<endpoint2>" and "<Method>" and "<Method1>" and "<SampleName>"
     Then Verify Status code <Expected_status>

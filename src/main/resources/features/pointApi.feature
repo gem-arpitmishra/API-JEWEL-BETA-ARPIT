@@ -1,6 +1,6 @@
 Feature: pointApi
 
-  @smoke
+#  @smoke
   Scenario Outline: API to get the base URLs of the Application
     Given sett tokenn endpointt and methodd "<endpoint>" and "<Method>"
     Then Verify Status code <Expected_status>
