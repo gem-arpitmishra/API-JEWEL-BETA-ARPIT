@@ -8,7 +8,7 @@
   "tags": "@smoke",
   "scenario": "",
   "feature": "src/main/resources/features",
-  "email_report": "no",
+  "email_report": null,
   "email_to": [
     "maulick.bharadwaj@geminisolutions.com",
     "anshul.gandotra@geminisolutions.com",
