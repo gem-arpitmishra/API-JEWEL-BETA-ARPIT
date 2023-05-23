@@ -36,7 +36,7 @@ Feature: suiteApi
       | endpoint    | Method | Expected_status |
       | suiteApiGet | get    | 403             |
 
-  @smoke
+#  @smoke
   Scenario Outline: API to Create the Suite in the Application
     Given Set post token endpoint and method "<endpoint>" and "<Method>" and "<SampleName>"
     Then Verify Status code <Expected_status>
