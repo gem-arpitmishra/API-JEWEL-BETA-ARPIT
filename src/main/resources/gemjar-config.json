@@ -22,7 +22,7 @@
     "shubham.kumar@geminisolutions.com",
     "tushar.chauhan@geminisolutions.com"
   ],
-  "jewel_bridge_token": "1ce6d7e7-ad3a-48c0-b174-9df12f9a4fca1684745868875",
+  "jewel_bridge_token": "",
   "gemjarSubID": "test_id",
   "glueCode": "com.qa.gemini.StepDefinition",
   "enter_point": "https://apis.gemecosystem.com/enter-point",
