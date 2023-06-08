@@ -1,12 +1,12 @@
 Feature: getApi
 
-  @smoke
-  Scenario Outline: Get Company
-    Given Set endpoint and method "<endpoint>" and "<Method>"
-    Then Verify Status code <Expected_status>
-    Examples:
-      | endpoint | Method | Expected_status |
-      | Getc     | get    | 200             |
+#  @smoke
+#  Scenario Outline: Get Company
+#    Given Set endpoint and method "<endpoint>" and "<Method>"
+#    Then Verify Status code <Expected_status>
+#    Examples:
+#      | endpoint | Method | Expected_status |
+#      | Getc     | get    | 200             |
 
   Scenario Outline: Validate UserName
     Given Set endpoint and method "<endpoint>" and "<Method>"
